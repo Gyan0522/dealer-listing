@@ -37,14 +37,15 @@ API Endpoint :
 
 GET
 
-http://localhost:8080/v1/vehicle_listings
-http://localhost:8080/v1/searchlisting?make=maruti&model=magna&year=2018&color=red
+-http://localhost:8080/v1/vehicle_listings
+
+-http://localhost:8080/v1/searchlisting?make=maruti&model=magna&year=2018&color=red
 
 PUT
 
-http://localhost:8080/v1/listing
+-http://localhost:8080/v1/listing
 
-Body: 
+-Body: 
     {  
         "dealerId": "101",
         "code": "a",
