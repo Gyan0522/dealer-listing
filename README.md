@@ -21,16 +21,17 @@ mvn -N io.takari:maven:wrapper
 
 Note : While setting up the project , ensure that maven is installed steps to export the maven path from cmd line:
 
-Maven path setup $ export M2_HOME=/path to maven/apache-maven-3.6.2 
-$ export M2=$M2_HOME/bin 
-$ export MAVEN_OPTS=-Xms256m -Xmx512m 
-$ export PATH=$M2:$PATH
+Maven path setup 
+- $ export M2_HOME=/path to maven/apache-maven-3.6.2 
+- $ export M2=$M2_HOME/bin 
+- $ export MAVEN_OPTS=-Xms256m -Xmx512m 
+- $ export PATH=$M2:$PATH
 
 Build Docker image:
-docker build -tag="dealer-listing" .
+-docker build -tag="dealer-listing" .
 
 Run Docker Container:
-docker run -p 8080:8080 -it --rm dealer-listing
+-docker run -p 8080:8080 -it --rm dealer-listing
 
 
 API Endpoint :
