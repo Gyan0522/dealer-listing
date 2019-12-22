@@ -11,13 +11,10 @@ git clone https://github.com/Gyan0522/dealer-listing.git
 
 cd dealer-listing/
 
-mvn install
-
-mvn package && java -jar target/dealerlistings-0.1.0.jar
-
-mvn -N io.takari:maven:wrapper
-
-./mvnw clean spring-boot:run
+- mvn install
+- mvn package && java -jar target/dealerlistings-0.1.0.jar
+- mvn -N io.takari:maven:wrapper
+- ./mvnw clean spring-boot:run
 
 Note : While setting up the project , ensure that maven is installed steps to export the maven path from cmd line:
 
