@@ -13,7 +13,7 @@ cd dealer-listing/
 
 mvn install
 
-mvn package && java -jar target/pricemonitor-0.1.0.jar
+mvn package && java -jar target/dealerlistings-0.1.0.jar
 
 mvn -N io.takari:maven:wrapper
 
